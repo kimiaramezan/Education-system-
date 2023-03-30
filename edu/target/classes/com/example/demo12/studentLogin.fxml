@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="950.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo12.Controller.StudentLoginPanelController">
+   <children>
+      <TextField fx:id="namefield" layoutX="390.0" layoutY="289.0" prefHeight="48.0" prefWidth="183.0" />
+      <TextField fx:id="idfield" layoutX="392.0" layoutY="353.0" prefHeight="42.0" prefWidth="181.0" />
+      <Button layoutX="383.0" layoutY="435.0" mnemonicParsing="false" onAction="#clicklogin" prefHeight="46.0" prefWidth="205.0" text="login">
+         <font>
+            <Font size="28.0" />
+         </font></Button>
+      <Label layoutX="186.0" layoutY="289.0" prefHeight="51.0" prefWidth="194.0" text="student name:">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="236.0" layoutY="365.0" prefHeight="38.0" prefWidth="144.0" text="student id:">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Button fx:id="backtomainMenu" layoutX="91.0" layoutY="618.0" mnemonicParsing="false" onAction="#getbacktoMenu" prefHeight="34.0" prefWidth="175.0" text="back to menu" />
+   </children>
+</Pane>
